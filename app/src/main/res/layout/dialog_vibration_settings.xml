@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginBottom="20dp">
+
+   <android.support.v7.widget.SwitchCompat
+       android:id="@+id/switch_vibration_settings"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:textColor="@color/Holo_Blue"
+       android:textSize="25sp"
+       android:textStyle="bold"
+       android:layout_gravity="center"
+       android:text="Vibration"/>
+
+</LinearLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        android:textSize="30sp"
+        android:textColor="@color/Holo_Blue"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/medal_1_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/score_view_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/medal_3_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HighScore "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/highscore_view_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/medal_2_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lifetime Score "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/lifetime_score_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/crown_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Games "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/total_games_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/target_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Score "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/average_score_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/clock_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Time(hr) "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/total_time_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="0dp"
+            android:src="@mipmap/sand_icon"
+            android:layout_marginRight="4dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Time (min) "
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/average_time_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryRed"
+            android:textStyle="bold"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_achievements"
+        android:title="Achievements"
+        android:icon="@mipmap/trophy_icon"
+        />
+
+    <item android:id="@+id/nav_stats"
+        android:title="Stats"
+        android:icon="@mipmap/stats_icon"
+        />
+
+    <item android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@mipmap/ic_settings_black_24dp"/>
+
+
+</menu>

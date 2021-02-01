@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shake-in-tosh</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="menu_rate_us">Rate This App</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="action_close_app">Close App</string>
+</resources>
